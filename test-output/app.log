@@ -1,0 +1,24 @@
+15:07:01.502 [main] INFO  com.demo.LoggingUtils - Opening the browser...
+15:07:01.513 [main] INFO  com.demo.LoggingUtils - Opening URL: https://www.google.co.in/
+15:07:03.022 [main] INFO  com.demo.LoggingUtils - Waiting for element to be visible: element with tag name: textarea, ID: APjFqb, class: gLFyf, text: 
+15:07:03.276 [main] INFO  com.demo.LoggingUtils - Entering text: selenium into 
+<textarea jsname="yZiJbe" class="gLFyf" jsaction="paste:puy29d;" id="APjFqb" maxlength="2048" name="q" rows="1" aria-activedescendant="" aria-autocomplete="both" aria-controls="Alh6id" aria-expanded="false" aria-haspopup="both" aria-owns="Alh6id" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Search" type="search" value="" aria-label="Search" data-ved="0ahUKEwiH0Kqtg_2CAxWLslYBHUWtANEQ39UDCAQ"></textarea>
+15:07:03.738 [main] ERROR com.demo.LoggingUtils - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submi']"}
+  (Session info: chrome=120.0.6099.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bf12aa3c4a28c29bff156691ef1533e, findElement {using=xpath, value=//input[@type='submi']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.62, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\NARADA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62297/devtoo..., se:cdpVersion: 120.0.6099.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bf12aa3c4a28c29bff156691ef1533e
+15:07:03.860 [main] ERROR com.demo.LoggingUtils - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='submi']"}
+  (Session info: chrome=120.0.6099.62)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bf12aa3c4a28c29bff156691ef1533e, findElement {using=xpath, value=//input[@type='submi']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.62, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\NARADA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62297}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62297/devtoo..., se:cdpVersion: 120.0.6099.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bf12aa3c4a28c29bff156691ef1533e
+15:07:04.384 [main] INFO  com.demo.LoggingUtils - Closing the browser...
